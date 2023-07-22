@@ -34,7 +34,7 @@ const DashboardClient: React.FC<DashboardClientProps> = ({ projects, id }) => {
       <div className="md:px-24 lg:px-40 xl:px-64 mt-8 px-10 flex flex-col gap-y-6">
         {projects && projects.length === 0 && (
           <div className="text-neutral-500 flex justify-center items-start w-full">
-            You have not created any project
+            You have not created any projects
           </div>
         )}
         {projects && projects?.length !== 0 &&

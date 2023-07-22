@@ -106,7 +106,7 @@ const Project: React.FC<ProjectProps> = ({ project, projectUser }) => {
   };
 
   if (!project) {
-    return <div>no project found</div>;
+    return <div>no projects found </div>;
   }
 
   return (

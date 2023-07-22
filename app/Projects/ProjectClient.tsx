@@ -81,7 +81,7 @@ const ProjectClient: React.FC<ProjectClientProps> = ({ projects }) => {
 
           {projectsState == null || projectsState.length === 0 ? (
             <div className="flex items-center justify-center text-sm text-neutral-500 font-semibold h-[60vh]">
-              No project found
+              No projects found
             </div>
           ) : (
             <div className="md:px-24 lg:px-40 xl:px-64 mt-16 px-10 flex flex-col gap-y-6">
