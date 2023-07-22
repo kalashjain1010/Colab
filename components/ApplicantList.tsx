@@ -38,14 +38,15 @@ const ApplicantList: React.FC<ApplicantListProps> = ({
               : "bg-white text-blue-800 border border-blue-800"
           }`}
         >
-          {details.status === "pending" ? "Interested" : "Accepted"}
+          {/* {details.status === "pending" ? "Interested" : "Interested"} */}
+          Interested
         </Button>
       </div>
 
       <div
         className={`${
           details.status === "accepted" ? "block" : "hidden"
-        } grid grid-cols-2 p-4`}
+        } grid grid-cols-1 lg:grid-cols-2 p-4`}
       >
         <div>
           <div className="text-lg font-semibold">Email</div>

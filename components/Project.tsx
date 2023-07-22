@@ -187,9 +187,11 @@ const Project: React.FC<ProjectProps> = ({ project, projectUser }) => {
               placeholder="Enter LinkedIn Profile URL"
             />
           </div>
-          <Button type="submit" disabled={isLoading}>
+          <div className="flex items-center w-full justify-center">
+          <Button type="submit" disabled={isLoading} className="bg-blue-700 text-white w-auto px-8">
             Apply
           </Button>
+          </div>
         </form>
       </CreateProjectModal>
     </>

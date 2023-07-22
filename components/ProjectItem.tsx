@@ -25,7 +25,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
       <div className="font-semibold text-xl">{project.title}</div>
       <div>
         {showApplicants && onClickParticipants ? (
-          <div onClick={() => onClickParticipants(project.id)} className="bg-blue-700 relative min-h-[65px] min-w-[64px] flex items-center p-8 rounded-2xl rounded-tl-none rounded-bl-none text-white hover:bg-blue-800 transition">View Applicants</div>
+          <div onClick={() => onClickParticipants(project.id)} className="bg-blue-700 relative min-h-[65px] min-w-[64px] flex items-center p-8 rounded-2xl rounded-tl-none rounded-bl-none text-white hover:bg-blue-800 transition">View  <br className="md:hidden" />Applicants</div>
         ) : (
           <BiRightArrow
             size={30}

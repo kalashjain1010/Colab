@@ -56,7 +56,7 @@ const AuthModal: React.FC<AuthModalProps> = ({
               className="bg-blue-700 text-white w-full p-2 mt-3"
               disabled={isLoading}
             >
-              Login
+              {heading}
             </Button>
           </form>
         </div>
