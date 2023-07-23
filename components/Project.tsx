@@ -179,12 +179,12 @@ const Project: React.FC<ProjectProps> = ({ project, projectUser }) => {
             />
           </div>
           <div>
-            <label className="text-sm text-neutral-800">Linkedin Profile</label>
+            <label className="text-sm text-neutral-800"> Profile Link</label>
             <Input
               type="text"
               disabled={isLoading}
               {...register("linkedin", { required: true })}
-              placeholder="Enter LinkedIn Profile URL"
+              placeholder="Enter your Profile URL (resume/LinkdIn/Portfolio)"
             />
           </div>
           <div className="flex items-center w-full justify-center">
