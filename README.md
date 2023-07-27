@@ -35,4 +35,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Live Link
 
-[https://co-lab-hub.vercel.app/](https://cre8-iota.vercel.app/)https://cre8-iota.vercel.app/
+[https://co-lab-hub.vercel.app/](https://cre8-iota.vercel.app/)
